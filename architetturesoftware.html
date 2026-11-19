@@ -1,0 +1,110 @@
+<!--
+Realizzazione sito Web vetrina
+index.html condiviso
+- classificazioneFlynn.html
+- clusterGridComputing.html
+- sistemiPervasivi.html
+- architettureSoftware.html
+- middleware.html
+-->
+
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelli Architetturali</title>
+  </head>
+  <body>
+    <!-- Intestazione: uguale in tutte le pagine-->
+    <header>
+      <h1>Architetture distribuite - modelli architetturali</h1>
+      <p>Autore: Daniel Allen Greer, Marco Rollo, Mirko Greco Ruben</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="classificazioneflynn.html">Classificazione di Flynn</a>
+        </li>
+        <li><a href="clustergridcomputing.html">Cluster Grid Computing</a></li>
+        <li><a href="sistemipervasivi.html">Sistemi Pervasivi</a></li>
+        <li><a href="middleware.html">Middleware</a></li>
+      </ul>
+    </nav>
+
+    <hr />
+    <main>
+      <!-- 2. Titolo argomento -->
+      <h2>Architetture Software</h2>
+
+      <!-- 3. Presentazione dell'argomento -->
+      <section>
+        <h3>Che cosa sono</h3>
+        <p>
+          Le architetture software sono la parte software dei sistemi
+          distribuiti, <br />
+          si possono trovare di diversi tipi ma le principali sono:
+        </p>
+
+        <ul>
+          <li>
+            Architettura a terminali remoti: in quest' architettura le
+            operazioni <br />
+            vengono effettauate da un unica entita' centrale alla quale sono
+            collegati terminali "stupidi" <br />
+            che vanno unicamente a mostrare l'output.
+          </li>
+
+          <li>
+            Architettura Client-Server: In questo tipo di architettura i client
+            vanno a richedere informazioni e servizi <br />
+            a un computer con maggiore capacita' di calcolo chiamato server, i
+            client pero' hanno comunque una loro potenza di calcolo.
+          </li>
+
+          <li>
+            Architettura Web-Centric: In questa architettura tutti i calcoli
+            vengono svolti sul server principale mentre i client <br />
+            mostrano solo l'output (in un certo modo simile all'architettura a
+            terminali remoti), questa architettura e' maggiormente <br />
+            trovata sui siti web, da qui il nome.
+          </li>
+
+          <li>
+            Architettura coperativa: In questa architettura le entita' autonome
+            esportano e richiedono servizi <br />
+            secondo il modello di sviluppo a componenti per la programmazione la
+            server simile alla programmazione a oggetti.
+          </li>
+
+          <li>
+            Architetture completamente distribuite: In queste architetture i
+            vari nodi cooperano dialogando fra loro offrendo <br />
+            a ciascuno i propri servizi e richiedendone altri. Fra le piu'
+            importanti di queste tecnologie abbiamo: OMG, RMI e il DCOM
+          </li>
+
+          <li>
+            Architetture a microservizi: In queste architetture un'applicazione
+            veine suddivisa in componenti autonomi chiamato microservizi <br />
+            ciascuno dei quali svolge una funzione specifica e comunica con gli
+            altri tramite meccanismi di comunicazione API
+          </li>
+        </ul>
+      </section>
+      <!-- 7. immagine a scelta-->
+      <img src="architetturesoftware.svg" alt="Sistemi Pervasivi" width="500" />
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>
+        Realizzato da Daniel Allen Greer, Mirko Greco Ruben e Marco Rollo,
+        16/11/2026
+      </p>
+    </footer>
+  </body>
+</html>
